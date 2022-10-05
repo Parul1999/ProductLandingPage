@@ -6,8 +6,12 @@ nav {
 .nav-items {
     cursor: pointer;
     display: flex;
-    gap: 5rem;
     font-size: 1.4em;
+    margin: 0 2rem;
+}
+
+.nav-item{
+padding: 1rem
 }
 
 .active-item {
@@ -17,6 +21,7 @@ nav {
 /* Hero Section */
 .right-section {
     text-align: center;
+    margin: auto;
 }
 
 .left-section {
